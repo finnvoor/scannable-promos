@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>PromoIcon.png</string>
+			<key>Service Name</key>
+			<string>Make Scannable</string>
+			<key>Regular Expression</key>
+			<string>([A-Z]|\d){12}</string>
+			<key>Title</key>
+			<string>Preview Promo Code</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Generate scannable iTunes promo code from selected promo code text.</string>
+	<key>Extension Identifier</key>
+	<string>com.finnvoor.popclip.extension.previewpromocode</string>
+	<key>Extension Name</key>
+	<string>Preview Promo Code</string>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+</dict>
+</plist>
